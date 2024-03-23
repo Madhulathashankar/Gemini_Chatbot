@@ -18,7 +18,7 @@ class _HomePageState extends State<HomePage> {
   final TextEditingController _textController = TextEditingController();
   final FocusNode _textFieldFocus = FocusNode();
   bool _loading = false;
-  static const _apiKey = 'AIzaSyAwiwD3JACVOy6Q0BmeTpetid09pSLgDCs'; // https://ai.google.dev/ (Get API key from this link)
+  static const _apiKey = '<Your_API_KEY>'; // https://ai.google.dev/ (Get API key from this link)
 
   void scrollDownTheSCREEN() {
     WidgetsBinding.instance.addPostFrameCallback(
